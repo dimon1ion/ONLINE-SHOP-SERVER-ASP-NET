@@ -17,7 +17,7 @@ namespace ECommerce1.Services
 
         public async Task SendEmailAsync(string toEmail, string subject, string message)
         {
-
+             
             var msg = new SendGridMessage()
             {
                 From = new EmailAddress("sams_bd16@itstep.edu.az", "ECommerce App"),
